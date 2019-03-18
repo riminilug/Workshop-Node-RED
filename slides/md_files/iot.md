@@ -1,4 +1,4 @@
-## Internet of Things
+# Internet of Things
 
 <img src="images/iot.png" width="60%">
 
@@ -8,32 +8,32 @@
 
 <--s-->
 
-## Trend dei dispositivi connessi 
+# Trend dei dispositivi connessi 
 
 <img src="images/iot-trend.png" width="80%">
 
 
 <--s-->
 
-## Le parole chiave dell'IoT
+# Le parole chiave dell'IoT
 
+<br>
 * Smart Objects
 * Cloud
 * Big Data
 
 <--s-->
 
-## Opportunità e Rischi
+# Opportunità e Rischi
 
 
-<p  class="fragment highlight-green"> Grandi opportunità di migliorare  il nostro stile di vita   </p>
+* <p  class="fragment highlight-green"> Grandi opportunità di migliorare  il nostro stile di vita   </p>
 
-<p  class="fragment highlight-green"> Riduzione di sprechi e consumi a beneficio dell'ecosostenibilità  </p>
+* <p  class="fragment highlight-green"> Riduzione di sprechi e consumi a beneficio dell'ecosostenibilità  </p>
 
+* <p  class="fragment highlight-red"> Rischi per la sicurezza dei dispositivi </p>
 
-<p  class="fragment highlight-red"> Rischi per la sicurezza dei dispositivi </p>
-
-<p  class="fragment highlight-red"> Rischi per la nostra privacy </p> 
+* <p  class="fragment highlight-red"> Rischi per la nostra privacy </p> 
 
 
 

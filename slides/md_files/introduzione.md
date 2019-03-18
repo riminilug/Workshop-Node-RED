@@ -1,4 +1,4 @@
-## La nostra scaletta...
+# La nostra scaletta...
 
 Introduzione all'IoT (Internet of Things) <!-- .element: class="fragment" -->
 
@@ -12,9 +12,8 @@ Comunicare con l'esterno <!-- .element: class="fragment" -->
 
 > ...non un corso ma una carrellata di esempi e casi d'uso, per poi dare spazio alle vostre domande e curiosità <!-- .element: class="fragment" -->
 
-
 <--s-->
 
-## Da quale livello partiamo ?
+# Da quale livello partiamo ?
 
 <img src="images/sondaggio.png" width="60%">

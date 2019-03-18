@@ -14,6 +14,6 @@ docker start mosquitto &
 ./webcam_streamer.sh &
 
 #4. Avvia il webserver locale per le risorse e le slides
-docker start nginx-static &
+#docker start nginx-static &
 
 
