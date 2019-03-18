@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>reveal.js</title>
+		<link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/beige.css">
+		<link rel="stylesheet" href="css/mystyles.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+	  <div class="reveal">
+			<div class="slides">
+          
+        <section>
+            <img class="plain" width="80%" src="images/header.png"/>
+					<h2>Node-RED & Smart Objects</h2>
+					<h3> crea la tua rete di dispositivi “intelligenti” in maniera semplice con strumenti Open Source</h3>
+          <h4>19 marzo 2019</h4>
+          
+				</section>
+
+        <section>
+          <h2>Risorse</h2>
+          <ul>
+          <li><a href="slides.html"> Le slide del workshop </a></li>
+          <li><a href="https://github.com/riminilug/workshop-nodered"> Le risorse e il codice del workshop </a></li>
+          <li><a href="#/2"> Esempi Node-RED </a></li>
+          </ul>
+        </section>    
+
+
+        <section>
+          <h2>IP e Servizi</h2>
+          <small>
+          <ul>
+            <li>Server MQTT &#8594 192.168.100.1 : 1883</li>
+            <hr>
+            <li>Node-RED PC#1 &#8594 192.168.100.1 : 1891</li>
+            <li>Node-RED PC#2 &#8594 192.168.100.1 : 1892</li>
+            ...
+            <li>Node-RED PC#10 &#8594 192.168.100.1 : 1900</li>
+            <hr>
+            <li>Node-RED RaspberryPI#1 &#8594 192.168.100.11 : 1880</li>
+            <li>Node-RED RaspberryPI#2 &#8594 192.168.100.12 : 1880</li>
+            <li>Node-RED RaspberryPI#3 &#8594 192.168.100.13 : 1880</li>
+            <li>Node-RED RaspberryPI#4 &#8594 192.168.100.14 : 1880</li>
+            
+          </ul>
+        </small>
+        </section>    
+
+        <section>
+          <h2>Sensori WITTY ESP8266</h2>
+          <small>
+          I sensori utilizzano i seguenti topics MQTT:<br>
+          <hr>  
+          <ul>
+            <li>sensor1/light &#8594 valore fotocellula (R)</li>
+            <li>sensor1/button  &#8594 valore pulsante (R)</li>
+            <li>sensor1/rgb  &#8594 comando LED RGB (R/W)</li>
+            <hr>
+            <li>sensor2/light &#8594 valore fotocellula (R)</li>
+            <li>sensor2/button  &#8594 valore pulsante (R)</li>
+            <li>sensor2/rgb  &#8594 comando LED RGB (R/W)</li>
+            <hr>
+            ...
+            
+          </ul>
+
+  
+        </small>
+        <hr>
+        <p><small>
+        il comando RGB del led deve essere una stringa del tipo '#RRGGBB' dove RR, GG e BB sono i valori esadecimali dei singoli canali rosso, verde e blu.
+        <br>
+        
+        #FF0000   &#8594 Led rosso    /        #00FF00   &#8594 Led verde
+      </small></p>
+  
+      </section>    
+
+        <section>
+            <h2>Node-RED JSON files</h2>
+            <ul>
+              <li><a href="node-red-json/helloworld.json">helloworld.json</a></li>
+              <li><a href="node-red-json/mqtt-basic.json">mqtt-basic.json</a></li>
+              <li><a href="node-red-json/dashboard.json">dashboard.json</a></li>
+              <li><a href="node-red-json/webservices.json">webservices.json</a></li>
+              <li><a href="node-red-json/telegram.json">telegram.json</a></li>
+              <li><a href="node-red-json/firmata-neopixel.json">firmata-neopixel.json</a></li>
+              
+            </ul>
+          </section>    
+  
+			
+     <section data-markdown="md_files/licenza-cc.md"
+     data-separator="^<--s-->"
+     data-separator-vertical="^<--v-->"
+     data-separator-notes="^--Note--:"
+     data-charset="utf-8">
+    </section>
+
+ </div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
