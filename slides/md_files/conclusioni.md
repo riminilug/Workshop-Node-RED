@@ -31,4 +31,4 @@ abbiamo visto come creare UI web o via telegram verso il nostro sistema <!-- .el
 
 https://www.riminilug.it
 
-[posta@fablabromagna.org]( info@riminilug.it)
+[info@riminilug.it]( info@riminilug.it)
