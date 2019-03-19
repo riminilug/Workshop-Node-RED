@@ -1,7 +1,5 @@
 ![RiminiLUG Logo](/slides/images/logo-riminilug.png)
 
-RiminiLUG - Node-RED
-========================
 
 Workshop: IoT con Node-RED 
 ===========================
