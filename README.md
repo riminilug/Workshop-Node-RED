@@ -1,27 +1,15 @@
-![FLR Logo](/slides/images/logo-flr.png)
+![RiminiLUG Logo](/slides/images/logo-riminilug.png)
 
-FabLab Romagna @ SMD2018
+RiminiLUG - Node-RED
 ========================
 
-Workshop: IoT con Node-RED e RaspberryPI
-========================================
+Workshop: IoT con Node-RED 
+===========================
 
-Questo repository contiene il materiale del workshop presso lo School Maker Day 2018 - Opificio Golinelli - Bologna.
+Questo repository contiene il materiale del workshop tenuto il 19 marzo 2019
 
-
-Il workshop, rivolto principalmente a docenti della scuola secondaria, descrive l'utilizzo del sw **[Node-RED](https://nodered.org)** per realizzare un sistema IoT.
 
 Tutti i software utilizzati nel workshop sono **Liberi e Open Source**, così come tutte le risorse ed i sorgenti contenuti in questo repository.
-
-Architettura del sistema
-------------------------
-
-Durante il workshop, erogato in modalità BYOD, verranno utilizzate istanze di Node-RED su PC (erogate attraverso **docker**) e istanze eseguite su alcuni **RaspberryPI** messi a disposizone dall'associazione FabLab Romagna APS.
-
-Inoltre, per realizzare una rete IoT, vengono utilizzati una serie di moduli ESP8266, collegati in WIFI e protocollo **MQTT** a PC e RaspberryPI, realizzando così una rete di sensori remoti. 
-I moduli ESP8266 utilizzati sono i **Witty**.
-
-Una serie di sensori e attuatori sono inoltre collegati direttamente ai RaspberyPI utilizzando il sistema GrovePI.
 
 
 Contenuto del presente repository
@@ -31,8 +19,6 @@ Sono presenti una serie di directory il cui contenuto è di seguito descritto.
 ### slides
 
 Contiene il materiale a supporto del workshop (slides) realizzato in formato HTML5 e Markdown, utilizzando il software revealjs.
-
-Inoltre, nella sottodirectory node-red-json, contiene una serie di esempi Node-RED utilizzati durante il workshop.
 
 
 ### esp8266

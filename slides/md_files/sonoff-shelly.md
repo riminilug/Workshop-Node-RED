@@ -3,6 +3,7 @@
 
 <img src="images/esp.png" width="100%">
 
+https://www.espressif.com/
 
 <--s-->
 
@@ -32,6 +33,6 @@ https://shelly.cloud/
 Posso programmare i moduli ESP8266 con l'IDE di Arduino:
 https://github.com/esp8266/Arduino
 <hr>
-Posso sostituire il firmware dei Sonoff con il firmware libero Tasmota:
+Posso sostituire il firmware dei Sonoff con il firmware libero Tasmota:<br>
 https://github.com/arendst/Sonoff-Tasmota
 
